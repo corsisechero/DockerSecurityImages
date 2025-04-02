@@ -1,11 +1,6 @@
 # DockerSecurityImages
 Docker Images for Penetration Testing &amp; Security
 
-```markdown
-# DockerSecurityImages
-
-## Docker Images for Penetration Testing & Security
-
 Questa guida raccoglie le immagini Docker ufficiali e di terze parti per ambienti di penetration testing e laboratori di sicurezza.
 
 ---
@@ -20,7 +15,9 @@ docker pull kalilinux/kali-rolling
 
 ## 2. Official OWASP ZAP
 Strumento per l'analisi della sicurezza delle applicazioni web.  
-[Repository GitHub](https://github.com/zaproxy/zaproxy)
+```bash
+docker pull zaproxy/zaproxy
+```
 
 ---
 
